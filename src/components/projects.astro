@@ -1,6 +1,7 @@
 ---
 import { Image } from "astro:assets";
 import moonwalker from "../../public/moonwalker.png";
+import volhub from "../../public/volhub.png";
 
 interface Project {
   title: string;
@@ -13,7 +14,7 @@ interface Project {
 const projects: Project[] = [
   {
     title: "Volhub",
-    image: moonwalker as ImageMetadata,
+    image: volhub as ImageMetadata,
     link: "https://github.com/ecoholic84/Volhub",
     preview: "",
     status: "On Development",
